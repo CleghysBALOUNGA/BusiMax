@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tête{
+    margin-left: 150px;
+    color: rgb(28, 142, 188);
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    padding: 3px;
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    max-width: 450px;
+    list-style-type: none;
+    max-width: 900px;
+    margin-right: 100px;
+}
+.div-info{
+    display: flex;
+    justify-content: space-between;
+    max-width: 580px;
+    margin-left: 50px;
+    margin-right: -80px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    max-width: 400px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.mère{
+    background-image: url(photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    padding: 140px;
+}
+.contenair-info{
+    color: white;
+    margin-top: -120px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+    max-width: 850px;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 5px;
+    width: 1000px;
+    height: 50px;
+}
+.contenair-menu{
+    color: white;
+    background-color: rgba(1, 59, 139, 0.586);
+    margin-left: 900px;
+    margin: 10px;
+    width: auto;
+    height: 40px;
+    margin-top: 40px;
+}
+.milieu{
+    color: white;
+    margin-top: 155px;
+}
+h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+h3{
+    font-size: 60px;
+}
+#busi{
+    font-size: 30px;
+}
+#happy{
+    font-size: 20px;
+}
+#read{
+    background-color: blue;
+    width: 130px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.parler{
+    background-color: rgba(1, 59, 139, 0.586);
+    margin-bottom: -100px;
+    margin: auto;
+    padding: 30px;
+}
+.business{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    padding-left: 30px;
+    color: white;
+}
+.start{
+    background-color: rgba(1, 58, 139, 0.434);
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    padding: 12px;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+}
+img{
+    width: 15px;
+    height: 25px;
+    margin-bottom: -15px;
+    margin-left: -18px;
+    border-radius: 5px;
+}
+#im{
+    width: 15px;
+    height: 20px;
+    margin-bottom: -6px;
+    margin-left: -18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.a{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    width: 130px;
+    margin-left: -50px;
+    margin-right: -44px;
+}
+#why{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* CSS de la page lire_plus */
+#lire{
+    background-image: url(photo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 500px;
+    padding: 140px;
+    color: white;
+}
+.lire{
+    font-size: 35px;
+    color: rgba(0, 0, 41, 0.886);
+}
+.lire button {
+    margin-top: 10px;
+}
+
+/* CSS de la page commencer */
+
+#commencer{
+    background-image: url(photo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 600px;
+    padding: 140px;
+    color: white;
+    margin-top: -100px;
+}
+.commencer{
+    font-size: 35px;
+    color: white;
+}
+.commencer a{color: rgb(29, 29, 219);}
+.commencer button{
+    margin-bottom: 10px;
+}
+
+/* CSS de la page des informations */
+
+.informations{
+    background-image: url(photo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 500px;
+    padding: 140px;
+    color: blue;
+}
+.informations p{
+    color: black;
+    font-size: 35px;
+}
+.informations p a{
+    color: blue;
+}
+
+/* ========== RESPONSIVE : TABLETTES & PC ========== */
+@media (min-width: 768px) {
+    .tête,
+    .info,
+    .div-info,
+    .menu,
+    .business {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tête {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .info {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .div-info {
+        max-width: 580px;
+        margin: auto;
+    }
+
+    .menu {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .contenair-info {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1000px;
+        height: 50px;
+    }
+
+    .contenair-menu {
+        margin-left: auto;
+        margin-right: 20px;
+        width: auto;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    h3 {
+        font-size: 60px;
+    }
+
+    #busi {
+        font-size: 30px;
+    }
+
+    .business {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .start {
+        margin-top: 0;
+    }
+
+    .a {
+        margin: 0 20px;
+    }
+
+    .parler {
+        height: auto;
+    }
+}
